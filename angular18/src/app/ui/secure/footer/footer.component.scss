@@ -1,0 +1,45 @@
+.footer {
+  background-color: #E8ECEF;
+  padding: 8px 16px;
+  height: auto;
+}
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* space between logo and text */
+}
+
+.footer-logo {
+  height: 30px;
+  /* Adjusted for text alignment */
+  width: auto;
+  vertical-align: middle;
+  /* keeps it centered with text */
+}
+
+.welcome {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1;
+  /* aligns better with image */
+  display: flex;
+  align-items: center;
+}
+
+
+
+.footer-right {
+  margin: 0;
+  font-size: 18px;
+  color: #000;
+}

@@ -1,0 +1,114 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFCDA8 !important;
+  padding: 8px 16px;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-logo {
+  height: 30px;
+}
+
+.welcome {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: right;
+  margin-left: auto; /* ensures it stays pushed to the right */
+}
+
+.user-info {
+  text-align: right;
+}
+
+.user-name {
+  margin: 0;
+  font-size: 17px;
+  color: #000;
+  font-weight: 600;
+}
+
+.user-role {
+  margin: 0;
+  font-size: 15px;
+  color: #000;
+  font-weight: 550;
+}
+
+.logout-icon {
+  height: 20px;
+  cursor: pointer;
+}
+
+/* 🔹 Responsive Adjustments */
+@media (max-width: 768px) {
+  .header {
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .header-left {
+    flex: 1 1 auto;
+    min-width: 200px;
+  }
+
+  .welcome {
+    font-size: 16px;
+  }
+
+  .header-right {
+    flex: 1 1 auto;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+
+  .user-name {
+    font-size: 13px;
+  }
+
+  .user-role {
+    font-size: 11px;
+  }
+
+  .logout-icon {
+    height: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome {
+    font-size: 14px;
+  }
+
+  .user-name {
+    font-size: 12px;
+  }
+
+  .user-role {
+    font-size: 10px;
+  }
+
+  .header-logo {
+    height: 24px;
+  }
+
+  .logout-icon {
+    height: 20px;
+  }
+}

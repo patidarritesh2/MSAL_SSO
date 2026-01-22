@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body class="appBody">
+  <div class="auth-container">
+    <!-- Move heading above the card -->
+    <h1 class="main-text">MSAL Login Tool</h1>
+
+    <div class="auth-box">
+      <div class="footer">
+
+      </div>
+
+      <div *ngIf="loading" class="loading-overlay">
+        <div class="spinner-border text-primary" role="status">
+          <span class="sr-only">Authenticating...</span>
+        </div>
+        <p>Signing you in, please wait...</p>
+      </div>
+
+      <!-- Error -->
+      <div *ngIf="!loading && error" class="card error-card">
+        <h4>Authentication Failed</h4>
+        <p class="error-message">{{ error }}</p>
+        <button class="button" (click)="retry()">Retry</button>
+      </div>
+
+      <!-- Redirect -->
+      <div *ngIf="!loading && !error">
+        <p>Redirecting to your dashboard...</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+
+
+</html>

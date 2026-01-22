@@ -1,0 +1,123 @@
+
+  .logo {
+            position: absolute;
+            top: 10%;
+            width: 15%;
+        }
+ body {
+            font-family: 'ITC Charter Black', serif;
+            color: #000;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f5f5;
+            position: relative;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            background: linear-gradient(to left, #FD5108, #FF7B3E);
+            color: #ffffff;
+            font-weight: bold;
+            padding: 14px 20px;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            width: 200px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .button:hover {
+            opacity: 0.92;
+            transform: translateY(-2px);
+        }
+
+        .powered-text {
+            position: absolute;
+            bottom: 20px;
+            font-size: 18px;
+        }
+// .powered-text {
+//     position: absolute;
+//     bottom: 20px;
+//     right: 20px; /* Add this */
+//     font-size: 20px;
+//     color: #6e6d6d;
+// }
+        .main-text {
+            font-size: 40px;
+            padding-bottom: 2%;
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            .logo {
+                width: 45%;
+            }
+
+            .button {
+                width: 70%;
+                font-size: 16px;
+                padding: 12px;
+            }
+
+            .powered-text {
+                font-size: 12px;
+                bottom: 10px;
+                right: 10px;
+            }
+        }
+
+         /* --- Footer Section --- */
+    .footer {
+      background-color: #E8ECEF;
+      padding: 5px 15px;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .footer-logo {
+     height: 30px;  
+      width: auto;
+      vertical-align: middle;
+    }
+
+    .welcome {
+      color: #000000;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 1;
+      display: flex;
+      align-items: center;
+    }
+
+    .footer-right {
+      margin: 0;
+      font-size: 18px;
+      color: #000;
+    }

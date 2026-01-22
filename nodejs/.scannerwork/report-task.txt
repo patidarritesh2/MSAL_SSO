@@ -1,0 +1,6 @@
+projectKey=nodejs-project-07-02
+serverUrl=http://localhost:9099
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9099/dashboard?id=nodejs-project-07-02
+ceTaskId=7dd2ea15-2530-4778-a634-3401a16b78ab
+ceTaskUrl=http://localhost:9099/api/ce/task?id=7dd2ea15-2530-4778-a634-3401a16b78ab

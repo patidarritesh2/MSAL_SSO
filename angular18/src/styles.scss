@@ -1,0 +1,219 @@
+
+
+
+@font-face{
+    font-family:'ITC Charter Black';
+ src: url("./assets/fonts/ITCCharterCom-Regular.ttf") format("truetype");
+}
+// body{
+//     overflow: hidden;
+// }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.appBody{
+  background: #FFE8D4 !important;
+//background: linear-gradient(to bottom left, #e08e6b, #FFE5D9, #ece9e9) !important; 
+}
+
+h1{
+    font-family: 'ITC Charter Black', sans-serif !important;
+}
+label{
+    font-family: 'ITC Charter Black', sans-serif !important;
+}
+.mat-typography{
+    font-family: 'ITC Charter Black', sans-serif !important;
+}
+
+.mat-step-text-label{
+    font-family: 'ITC Charter Black', sans-serif !important;
+    font-weight: bold;
+}
+  .mat-step-header .mat-step-icon-selected{
+    background-color: #FF4704 !important;
+  }
+  
+  .mat-form-field-appearance .mat-form-field-wrapper{
+    padding-bottom: 0 !important;
+  }
+  .mat-accent.mat-mdc-radio-button{
+    --mdc-radio-disabled-selected-icon-color: FF4704;
+    --mdc-radio-disabled-unselected-icon-color: FF4704;
+    --mdc-radio-unselected-hover-icon-color: #212121;
+    --mdc-radio-unselected-focus-icon-color: #212121;
+    --mdc-radio-unselected-icon-color: rgba(0, 0, 0, 0.54);
+    --mdc-radio-unselected-pressed-icon-color: rgba(0, 0, 0, 0.54);
+    --mdc-radio-selected-focus-icon-color: #FF4704;
+    --mdc-radio-selected-hover-icon-color: #FF4704;
+    --mdc-radio-selected-icon-color: #FF4704;
+    --mdc-radio-selected-pressed-icon-color: #FF4704;
+    --mat-radio-ripple-color: FF4704;
+    --mat-radio-checked-ripple-color: #FF4704;
+    --mat-radio-disabled-label-color: rgba(0, 0, 0, 0.38);
+    --mat-radio-label-text-color: rgba(0, 0, 0, 0.87);
+    --mat-radio-ripple-color: #FF4704 !important;
+    --mat-radio-checked-ripple-color: #FF4704 !important;
+    --mdc-radio-selected-icon-color: #FF4704 !important;
+  }
+  .mat-accent.mat-mdc-checkbox-checked{
+    --mdc-checkbox-disabled-selected-icon-color: rgba(0, 0, 0, 0.38);
+    --mdc-checkbox-disabled-unselected-icon-color: rgba(0, 0, 0, 0.38);
+    --mdc-checkbox-selected-checkmark-color: white;
+    --mdc-checkbox-selected-focus-icon-color: #FF4704;
+    --mdc-checkbox-selected-hover-icon-color: #FF4704;
+    --mdc-checkbox-selected-icon-color: #FF4704;
+    --mdc-checkbox-selected-pressed-icon-color: #FF4704;
+    --mdc-checkbox-unselected-focus-icon-color: #212121;
+    --mdc-checkbox-unselected-hover-icon-color: #212121;
+    --mdc-checkbox-unselected-icon-color: rgba(0, 0, 0, 0.54);
+    --mdc-checkbox-selected-focus-state-layer-color: #FF4704;
+    --mdc-checkbox-selected-hover-state-layer-color: #FF4704;
+    --mdc-checkbox-selected-pressed-state-layer-color: #FF4704;
+    --mdc-checkbox-unselected-focus-state-layer-color: black;
+    --mdc-checkbox-unselected-hover-state-layer-color: black;
+    --mdc-checkbox-unselected-pressed-state-layer-color: black;
+    --mat-checkbox-disabled-label-color: rgba(0, 0, 0, 0.38);
+    --mat-checkbox-label-text-color: rgba(0, 0, 0, 0.87);
+}
+  .mat-step-header .mat-step-icon-state-edit{
+    background-color:#FF4704 ;
+  }
+ 
+  .mat-mdc-select-value, .mat-datepicker-input{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    padding-left: 10px;
+    align-items: center !important;
+  }
+  
+  .mat-mdc-select-arrow, .mat-datepicker-toggle-default-icon{
+    margin-top: 10px !important;
+    margin-right: 10px;
+  }
+  .mat-text-field-wrapper{
+    background-color: white !important;
+    margin-top: 20px !important;
+  }
+  .mdc-text-field{
+    background-color: white !important;
+  }
+  ::ng-deep .mdc-text-field--focused{
+    background-color: transparent !important;
+  }
+  .cust_label{
+    font-size: 19px !important;
+    font-family: 'ITC Charter Black', sans-serif !important;
+    font-weight:bolder !important;
+    color: rgb(18, 18, 18) !important;
+    padding: 0 !important;
+  }
+  .cust_input{
+  background-color: #f5f5f5;
+    padding: 0 !important;
+  }
+  .mat-form-field-appearance .mat-form-field-wrapper{
+    padding-bottom: 0 !important;
+  }
+  .mdc-floating-label--required{
+    color: red !important;
+    font-size: 20px !important;
+  }
+  .mat-form-field-appearance .mat-form-field-label {
+    color: black;
+  }
+  .mat-dialog-actions {
+    min-height: 25px !important; 
+    margin-bottom: 0px !important;
+  }
+  .mat-dialog-container{
+    padding: 0px 25px 10px 25px  !important;
+    width: 70% !important;
+    margin: 0 auto;
+  }
+  .mat-dialog-content{
+    color:#FF4704 !important;
+    font-size: 20px !important;
+    line-height: 30px;
+    overflow: hidden !important;
+    text-align: center;
+  }
+  .mat-primary .mat-pseudo-checkbox-checked{
+
+    background:#FF4704 !important
+  }
+  .mat-primary .mat-option.mat-selected:not(.mat-option-disabled){
+    color:black ;
+  }
+  ::ng-deep .mat-horizontal-stepper-header{
+    pointer-events: none !important;
+  }
+  
+.click{
+  cursor: pointer;
+}
+button{
+  cursor: pointer;
+}
+img{
+  cursor: pointer;
+}
+
+.required{
+  color: red;
+  font-size: 20px;
+  margin-left: 5px;
+  font-weight: bold;
+
+}
+.mat-form-field-required-marker{
+  color:red !important;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+ label span.mat-form-field-required-marker{
+  color:red !important;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.mat-paginator-outer-container{
+  background-color: #e5e5e5;
+}
+.mat-paginator-container{
+  margin: 22px;
+  margin-top: 0px;
+}
+.mat-paginator-page-size{
+  margin-top: -10px;
+}
+.mat-paginator-page-size-select{
+  margin: 0px 4px 0px 4px !important;
+}
+.mat-select-disabled .mat-select-trigger{
+  background-color: #f5f5f5;
+}
+.cust_input:read-only{
+  background-color: #f5f5f5;
+    width: 94%;
+}
+.div_disable{
+  background-color: #f5f5f57a !important;
+}
+.div_disable:hover {
+  cursor: not-allowed !important;
+  .cust_input{
+    cursor:not-allowed !important;
+  }
+}
+.mat-mdc-table .mat-mdc-header-cell{
+  background-color: #c2c2c2 !important;
+  color: #505050;
+}
+.cke_notification{
+  display: none !important;
+}
+.cke_button__source {
+  display: none !important;
+}
